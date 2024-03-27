@@ -85,7 +85,7 @@ body {
   margin: 3rem auto;
  width: 100%;
   height: 697px;
-  background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('/img/blur.jpg');
+  background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('blur.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
@@ -216,7 +216,7 @@ body {
 .gallary{
   width: 100%;
   padding: 70px 0;
-  background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('/img/blur4.jpg');
+  background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('blur4.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
@@ -546,7 +546,7 @@ html::-webkit-scrollbar-thumb {
   margin: 3rem auto;
  width: 100%;
   height: 1197px;
-  background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('/img/idea3.png');
+  background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('idea3.png');
   background-size: contain;
   background-attachment: fixed;
 }
@@ -581,7 +581,7 @@ html::-webkit-scrollbar-thumb {
    margin: 3rem auto;
   width: 100%;
    height: 737px;
-   background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('/img/idea3.png');
+   background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('idea3.png');
    background-size: contain;
    background-attachment: fixed;
  }
@@ -617,7 +617,7 @@ html::-webkit-scrollbar-thumb {
    margin: 3rem auto;
   width: 100%;
    height: 757px;
-   background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('/img/poster.jpeg');
+   background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('poster.jpeg');
    background-size: contain;
    background-attachment: fixed;
  }
@@ -653,7 +653,7 @@ html::-webkit-scrollbar-thumb {
    margin: 3rem auto;
   width: 100%;
    height: 1297px;
-   background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('/img/game.jpeg');
+   background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('game.jpeg');
    background-size: cover;
   
    background-attachment: fixed;
@@ -689,7 +689,7 @@ html::-webkit-scrollbar-thumb {
    margin: 3rem auto;
   width: 100%;
    height: 2297px;
-   background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('/img/hack.jpeg');
+   background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('hack.jpeg');
    background-size: contain;
    background-attachment: fixed;
  }
@@ -724,7 +724,7 @@ html::-webkit-scrollbar-thumb {
    margin: 3rem auto;
   width: 100%;
    height: 2047px;
-   background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('/img/system.jpeg');
+   background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('system.jpeg');
    background-size: contain;
    background-attachment: fixed;
  }
