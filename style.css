@@ -95,7 +95,7 @@ body {
   }
 
   .landpage {
-    width: 50%;
+    width: 100%;
     
   }
 
@@ -137,18 +137,7 @@ body {
   background: var(--theme-color);
 }
 
-.home .home-slider .swiper-slide {
-  overflow: hidden;
-  border-radius: 0.5rem;
-  height: 70rem;
-  width: 45rem;
-}
 
-.home .home-slider .swiper-slide img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
 
 .heading {
   text-align: center;
@@ -210,111 +199,6 @@ body {
   color: #eee;
   padding: 1rem 0;
   line-height: 2;
-}
-/*Gallary*/
-
-.gallary{
-  width: 100%;
-  padding: 70px 0;
-  background: linear-gradient(rgba(0,0,0,0.7)80%,#222), url('/img/blur4.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.gallary h1{
-  font-size: 34px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
- 
-}
-
-.gallary h1 span{
-  margin-left: 15px;
-  color: #fac031;
- 
-}
-
-
-
-.gallary .gallary_image_box{
-  width: 95%;
-  margin: 10px auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-}
-
-.gallary .gallary_image_box .gallary_image{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: black;
-}
-
-.gallary .gallary_image_box .gallary_image img{
-  width: 100%;
-  transition: .3s;
-}
-
-.gallary .gallary_image_box .gallary_image:hover img{
-  opacity: 0.4;
-}
-
-.gallary .gallary_image_box .gallary_image h3{
-  position: absolute;
-  font-size: 35px;
-  margin-bottom: 130px;
-  color: #fac031;
- 
-  z-index: 5;
-  opacity: 0;
-  transition: 0.3s;
-}
-
-.gallary .gallary_image_box .gallary_image:hover h3{
-  opacity: 1;
-}
-
-.gallary .gallary_image_box .gallary_image p{
-  position: absolute;
-  width: 400px;
-  margin-top: 30px;
-  text-align: center;
-  color: white;
-  line-height: 22px;
-  opacity: 0;
-  z-index: 5;
-  transition: 0.3s;
-}
-
-.gallary .gallary_image_box .gallary_image:hover p{
-  opacity: 1;
-}
-
-.gallary .gallary_image_box .gallary_image .gallary_btn{
-  position: absolute;
- 
-  color: #000;
-  background: #fac031;
-  padding: 7px 25px;
- 
-  opacity: 0;
-  transform: translateY(45px);
-  z-index: 5;
-  transition: 0.3s;
-}
-
-.gallary .gallary_image_box .gallary_image:hover .gallary_btn{
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.gallary .gallary_image_box {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 1.5rem;
-
 }
 
 
@@ -516,18 +400,7 @@ html::-webkit-scrollbar-thumb {
   }
 }
 
-@media (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
 
-  .home .home-slider .swiper-slide {
-    width: 37rem;
-  }
-
- 
-  
-}
    
 /* event page */
 .event .content {
