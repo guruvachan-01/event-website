@@ -480,7 +480,8 @@ html::-webkit-scrollbar-thumb {
   }
 
   .header {
-    margin-right:6rem;
+    width:400px;
+     padding: 1.5rem 2rem;
   }
 
   section {
