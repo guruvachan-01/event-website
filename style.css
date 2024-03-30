@@ -477,11 +477,11 @@ html::-webkit-scrollbar-thumb {
 @media (max-width: 991px) {
   html {
     font-size: 55%;
-    margin-right:4px;
+   
   }
 
   .header {
-    width:320px;
+   
      padding: 1.5rem 2rem;
   }
 
