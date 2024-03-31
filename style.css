@@ -103,6 +103,20 @@ body {
     padding: 2rem;
   }
 }
+@media (max-width: 455px) {
+  html {
+    font-size: 55%;
+  }
+
+  .landpage {
+    width: 100%;
+    
+  }
+
+  section {
+    padding: 2rem;
+  }
+}
 
 .landpage .content h3 {
   color: #fff;
